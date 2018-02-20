@@ -1,0 +1,13 @@
+(A) .2016-03-22 2017-12-03 Task signed as overdue :OVERDUE
+(A) 2017-12-03 Task with priority
+(B) .2017-12-03 2017-12-03 Task with priority and due date
+(C) .2017-12-20 2017-12-03 Compra i regali di natale +shopping
+(D) .2018-02-23 2015-03-03 Complete task +another_project#4 :TAG42
+.2017-12-05 2015-02-22 Task with creation date
+2015-10-23 Tagged task :TAG1 :TAG2
+2017-11-25 Task with project +projectA
+2017-12-03 Second task for the same project +projectA#2
+2017-12-03 Simplest task
+2017-12-03 Task with email, send mail to fre@domain.com
+; (C) 2015-07-15 Commented task :LATER
+;; comment

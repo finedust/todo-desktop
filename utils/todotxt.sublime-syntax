@@ -1,0 +1,34 @@
+$YAML 1.2
+
+---
+
+
+name: Todo.txt
+
+file_extensions:
+  - todo.txt
+  - done.txt
+
+scope: text.todotxt
+
+
+contexts:
+  prototype:
+    - include: skip
+
+  skip:
+    - match: ^x\b
+    comment: "Completed job"
+    scope: todotxt.done
+
+    -match: ^;;\b
+    comment: "Comment line"
+    scope: todotxt.comment
+
+    - match: ^;\b
+    comment: "Waiting or posponed task"
+    scope: todotxt.later
+
+  main:
+    - match: \b\d{4}\-\d{2}\-\d{2}\b
+    comment: ""
